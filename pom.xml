@@ -13,7 +13,7 @@
   </properties>
 
   <artifactId>nuxeo-webengine-wro-parent</artifactId>
-  <version>10.0</version>
+  <version>10.1</version>
   <name>Nuxeo WebEngine :: Web Resource Optimizer parent</name>
   <packaging>pom</packaging>
   <modules>
@@ -62,13 +62,13 @@
       <dependency>
 	<groupId>org.nuxeo.ecm.webengine</groupId>
 	<artifactId>nuxeo-webengine-wro</artifactId>
-	<version>${wro.version}</version>
+	<version>${project.version}</version>
       </dependency>
 
       <dependency>
 	<groupId>org.nuxeo.ecm.webengine</groupId>
 	<artifactId>nuxeo-webengine-wro-marketplace</artifactId>
-	<version>${wro.version}</version>
+	<version>${project.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
