@@ -13,7 +13,7 @@
   </properties>
 
   <artifactId>nuxeo-webengine-wro-parent</artifactId>
-  <version>10.1-SNAPSHOT</version>
+  <version>10.2-SNAPSHOT</version>
   <name>Nuxeo WebEngine :: Web Resource Optimizer parent</name>
   <packaging>pom</packaging>
   <modules>
