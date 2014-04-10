@@ -13,7 +13,7 @@
   </properties>
 
   <artifactId>nuxeo-webengine-wro-parent</artifactId>
-  <version>5.6.0</version>
+  <version>10.0</version>
   <name>Nuxeo WebEngine :: Web Resource Optimizer parent</name>
   <packaging>pom</packaging>
   <modules>
@@ -33,8 +33,7 @@
   <distributionManagement>
     <snapshotRepository>
       <id>lm-snapshots</id>
-      <url>http://forge.fr.corp.leroymerlin.com/nexus/content/repositories/snapshots/
-      </url>
+      <url>http://forge.fr.corp.leroymerlin.com/nexus/content/repositories/snapshots</url>
     </snapshotRepository>
 
     <repository>
@@ -63,13 +62,13 @@
       <dependency>
 	<groupId>org.nuxeo.ecm.webengine</groupId>
 	<artifactId>nuxeo-webengine-wro</artifactId>
-	<version>${nuxeo.version}</version>
+	<version>${wro.version}</version>
       </dependency>
 
       <dependency>
 	<groupId>org.nuxeo.ecm.webengine</groupId>
 	<artifactId>nuxeo-webengine-wro-marketplace</artifactId>
-	<version>${nuxeo.version}</version>
+	<version>${wro.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
