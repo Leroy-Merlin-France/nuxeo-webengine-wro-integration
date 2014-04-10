@@ -5,15 +5,15 @@
   <parent>
     <groupId>org.nuxeo.ecm.webengine</groupId>
     <artifactId>nuxeo-webengine-parent</artifactId>
-    <version>5.7-SNAPSHOT</version>
+    <version>5.6.0-HF05</version>
   </parent>
 
   <properties>
-    <wro.version>5.7-SNAPSHOT</wro.version>
+    <nuxeo.version>5.6.0-HF05</nuxeo.version>
   </properties>
 
   <artifactId>nuxeo-webengine-wro-parent</artifactId>
-  <version>5.7-SNAPSHOT</version>
+  <version>5.6.0-HF05</version>
   <name>Nuxeo WebEngine :: Web Resource Optimizer parent</name>
   <packaging>pom</packaging>
   <modules>
@@ -38,7 +38,8 @@
 
     <repository>
       <id>lm-releases</id>
-      <url>http://forge.fr.corp.leroymerlin.com/nexus/content/repositories/releases</url>
+      <url>http://forge.fr.corp.leroymerlin.com/nexus/content/repositories/releases/
+      </url>
     </repository>
   </distributionManagement>
 
