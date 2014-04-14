@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>nuxeo-webengine-wro-marketplace</artifactId>
-  <version>10.0-SNAPSHOT</version>
+  <version>10.2-SNAPSHOT</version>
   <name>Nuxeo WebEngine :: Web Resource Optimizer marketplace package</name>
     <packaging>zip</packaging>
 
